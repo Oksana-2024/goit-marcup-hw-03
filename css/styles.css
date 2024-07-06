@@ -8,10 +8,33 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.container {
+max-width: 1158;
+padding: 0 15px;
+margin: 0 auto;
+}
+
+/*header*/
+
+.header-page {
+border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+display: flex;
+align-items: center;
 }
 
 .logo {
@@ -24,11 +47,35 @@ a {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .logo-part {
   color: #2e2f42;
 }
 
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
 .nav-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -38,9 +85,12 @@ a {
 
 .contacts {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contacts-link {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -54,6 +104,8 @@ a {
   color: #404bbf;
 }
 
+/*main*/
+
 .title-page,
 .footer-page {
   background-color: #2e2f42;
@@ -66,7 +118,7 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-}
+  }
 
 .btn-title-page {
   background-color: #4d5ae5;
