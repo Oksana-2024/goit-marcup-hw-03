@@ -173,7 +173,7 @@ img {
 
 .list-features {
   display: flex;
-  justify-content: space-between;
+  gap: 24px;
 }
 
 .features-item {
