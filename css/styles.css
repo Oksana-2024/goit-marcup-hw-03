@@ -36,8 +36,6 @@ img {
   margin: 0 auto;
 }
 
-/*header*/
-
 .header-page {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -114,8 +112,6 @@ img {
   color: #404bbf;
 }
 
-/*main*/
-
 .title-page,
 .footer-page {
   background-color: #2e2f42;
@@ -174,10 +170,6 @@ img {
 .list-features {
   display: flex;
   gap: 24px;
-}
-
-.features-item {
-  width: calc((100% - 24px * 3) / 4);
 }
 
 .features-subtitle {
@@ -279,8 +271,6 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-/* footer */
 
 .logo-footer,
 .text-footer {
