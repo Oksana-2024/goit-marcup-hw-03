@@ -163,7 +163,7 @@ img {
   background-color: #404bbf;
 }
 
-.features-page {
+.section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -183,8 +183,6 @@ img {
 
 .team-page {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-item {
@@ -248,14 +246,17 @@ img {
   justify-content: center;
 }
 
-.portfolio-page {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.portfolio-subtitle {
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 
-.portfolio-subtitle{
-  margin-top: 32px;
-  margin-bottom: 8px;
+.border {
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  padding-left: 16px;
+  padding-bottom: 32px;
 }
 
 .visually-hidden {
