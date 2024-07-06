@@ -213,7 +213,6 @@ img {
 .team-list {
   margin-top: 72px;
   display: flex;
-  justify-content: center;
   gap: 24px;
 }
 
