@@ -248,8 +248,7 @@ img {
 }
 
 .portfolio-subtitle {
-  padding-top: 32px;
-  margin-bottom: 8px;
+   margin-bottom: 8px;
 }
 
 .border {
@@ -272,7 +271,7 @@ img {
   overflow: hidden;
 }
 
-.logo-footer,
+.logo-footer-part,
 .text-footer {
   color: #f4f4fd;
 }
@@ -282,7 +281,7 @@ img {
   padding-bottom: 100px;
 }
 
-.logo {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
