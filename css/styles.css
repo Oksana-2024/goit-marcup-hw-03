@@ -172,6 +172,10 @@ img {
   gap: 24px;
 }
 
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+
 .features-subtitle {
   margin-bottom: 8px;
 }
